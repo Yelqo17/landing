@@ -27,7 +27,7 @@ a{
 }
 
 .container{
-    max-width: 1440px;
+    max-width: 1180px;
     padding: 0 10px;
     margin: 0 auto;  
 }
@@ -42,7 +42,7 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 15px 0px;
-    margin-bottom: 190px;
+    margin-bottom: 150px;
 }
 
 .header-list{
@@ -85,4 +85,5 @@ a{
 
 .header__bottom{
     display: flex;
+    gap: 40px;
 }
