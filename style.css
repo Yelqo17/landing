@@ -117,9 +117,8 @@ a{
     border-radius: 10px;
 }
 
-/* .quote__section{
+.quote__section{
     background-color: #E5E7EB;
-    min-height: 40vh;
 }
 
 .quote__block{
@@ -134,18 +133,22 @@ a{
 }
 
 .quote__author{
-    font-size: 36px;
+    font-size: 24px;
     color: #1f2937;
     font-weight: bold;
     font-style: normal;
-    align-self: self-end;
+    align-self: end;
+}
+
+.quote__text{
+    margin: 0;
 }
 
 .quote__wrapper{
-    margin-top: 40px;
+    min-height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
-    margin-bottom: 40px;
-} */
+    align-items: center;
+    gap: 15px;
+}
