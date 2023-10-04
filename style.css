@@ -181,6 +181,7 @@ a{
     font-weight: bold;
     color: #F9FAF8;
     margin: 0;
+    margin-bottom: 5px;
 }
 
 .call__text{
@@ -198,4 +199,21 @@ a{
     border-radius: 10px;
     display: inline-block;
     border: 3px solid #E5E7EB;
+}
+
+.footer{
+    background-color: #1F2937;
+}
+
+.footer__wrapper{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__text{
+    margin: 0;
+    color:#F9FAF8;
+    font-size: 18px;
 }
